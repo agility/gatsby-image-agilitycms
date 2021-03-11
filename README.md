@@ -26,9 +26,10 @@ The AgilityImage Component accepts the following props:
     - constrained
     - fixed
     - fullWidth
-6. `aspectRation` = Forces an image to the specified aspect ratio, cropping if needed
+6. `aspectRatio` = Forces an image to the specified aspect ratio, cropping if needed
 
-Example: `<AgilityImage image={image} alt="A Cute Kitten" width={500} height={500} layout={fullWidth} />`
+#### Example: 
+`<AgilityImage image={image} alt="A Cute Kitten" width={500} height={500} layout={fullWidth} />`
 
 ### Live Example
 
