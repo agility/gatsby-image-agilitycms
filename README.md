@@ -32,5 +32,5 @@ Example: `<AgilityImage image={image} alt="A Cute Kitten" width={500} height={50
 
 ### Live Example
 
-To view a live example our the `gatsby-image-agilitycms` in action, check out our [Gatsby and Agility CMS Starter.](https://agility-gatsby-starter-gatsbycloud.netlify.app/)
+To view a live example the `gatsby-image-agilitycms` in action, check out our [Gatsby and Agility CMS Starter.](https://agility-gatsby-starter-gatsbycloud.netlify.app/)
 
