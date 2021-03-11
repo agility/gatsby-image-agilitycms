@@ -1,0 +1,25 @@
+{
+  "name": "@agility/gatsby-image-agilitycms",
+  "version": "1.0.0",
+  "description": "Gatsby Image wrapper for Agility CMS",
+  "main": "dist/AgilityImage.js",
+  "scripts": {
+    "build": "tsc --jsx react",
+    "clean": "del-cli dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agility CMS",
+  "contributors": [
+    "Joel Varty",
+    "Joshua Isaac"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "del-cli": "^3.0.1",
+    "gatsby-plugin-image": "^1.0.1",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
