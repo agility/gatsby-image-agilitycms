@@ -11,7 +11,7 @@ There are a few steps you need to take to get started using the `gatsby-image-ag
    - `npm install @agility/gatsby-image-agilitycms`
    - `yarn add @agility/gatsby-image-agilitycms`
 
-4. Import the AgilityImage component into the file you wish to use it on:
+4. Import the AgilityImage Component into the file you wish to use it on:
    - `import { AgilityImage } from "@agility/gatsby-image-agilitycms"`
 
 ### Using the AgilityImage Component
@@ -28,7 +28,9 @@ The AgilityImage Component accepts the following props:
     - fullWidth
 6. `aspectRation` = Forces an image to the specified aspect ratio, cropping if needed
 
+Example: `<AgilityImage image={image} alt="A Cute Kitten" width={500} height={500} layout={fullWidth} />`
+
 ### Live Example
 
-To view a live example our the `gatsby-image-agilitycms` in action, check out our [Gatsby and Agility CMS Starter.](https://agility-gatsby-starter-gatsbycloud.netlify.app/).
+To view a live example our the `gatsby-image-agilitycms` in action, check out our [Gatsby and Agility CMS Starter.](https://agility-gatsby-starter-gatsbycloud.netlify.app/)
 
