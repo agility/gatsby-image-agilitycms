@@ -1,7 +1,14 @@
 {
   "name": "@agility/gatsby-image-agilitycms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gatsby Image wrapper for Agility CMS",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "agilitycms",
+	"headless-cms"
+  ],
   "main": "dist/AgilityImage.js",
   "scripts": {
     "build": "tsc --jsx react",
