@@ -3,33 +3,32 @@
 With the release of [Gatsby V3](https://www.gatsbyjs.com/blog/gatsby-v3/) and the new [Gatsby Image plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), we were able to create `gatsby-image-agilitycms`. This is a custom image component that take's images stored within Agility CMS and handles all of the hard parts of displaying responsive images that follow best practices for performance on your website or application.
 
 ### Getting Started
-There are a few steps you need to take to get started using the `gatsby-image-agilitycms` component:
+There are a few steps you need to take before you start using the `gatsby-image-agilitycms` component.
 
-1. Ensure you're using the latest version of our [Gatsby and Agility CMS Starter](https://github.com/agility/agility-gatsby-starter), or ensure you're using the latest version of our [`gatsby-source-agilitycms`](https://github.com/agility/gatsby-source-agilitycms) plugin in your project.
+1. Update the package.json in your Gatsby project to use the Gatsby V3 and install the new Gatsby Image Plugin:
+   - `npm install gatsby@latest`
+   - `npm install gatsby-plugin-image`
 
-3. Install `gatsby-image-agilitycms`
+2. Install `gatsby-image-agilitycms` and update the `gatsby-source-agilitycms` plugin to the latest version:
    - `npm install @agility/gatsby-image-agilitycms`
-   - `yarn add @agility/gatsby-image-agilitycms`
-
-4. Import the AgilityImage Component into the file you wish to use it on:
-   - `import { AgilityImage } from "@agility/gatsby-image-agilitycms"`
+   - `npm install @agility/gatsby-source-agilitycms@latest`
 
 ### Using the AgilityImage Component
 
+To use the AgilityImage Component: 
+
+`import { AgilityImage } from "@agility/gatsby-image-agilitycms"`
+
 The AgilityImage Component accepts the following props:
 
-1. `image` = The object that contains your image
-2. `alt` = Alternative text
-3. `width` = Change the width of your image
-4. `height` = Change the height of your image
+1. `image` = The object of your image from Agility.
 5. `layout` = Determines the image sizes that are generated, as well as the resizing behavior of the image itself in the browser:
     - constrained
     - fixed
     - fullWidth
-6. `aspectRatio` = Forces an image to the specified aspect ratio, cropping if needed
 
 #### Example: 
-`<AgilityImage image={image} alt="A Cute Kitten" width={500} height={500} layout={fullWidth} />`
+`<AgilityImage image={image} layout={fullWidth} />`
 
 ### Live Example
 
