@@ -1,6 +1,6 @@
 {
   "name": "@agility/gatsby-image-agilitycms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby Image wrapper for Agility CMS",
   "repository": {
     "type": "git",
