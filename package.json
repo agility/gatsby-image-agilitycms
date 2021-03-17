@@ -19,6 +19,7 @@
   ],
   "main": "dist/AgilityImage.js",
   "scripts": {
+	"prepublish": "tsc",
     "build": "tsc --jsx react",
     "clean": "del-cli dist/*",
     "test": "echo \"Error: no test specified\" && exit 1"
