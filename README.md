@@ -1,3 +1,6 @@
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@agility/gatsby-image-agilitycms" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@agility/gatsby-image-agilitycms.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@agility/gatsby-image-agilitycms" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@agility/gatsby-image-agilitycms.svg" alt="NPM downloads" /></a></span>
+
 # gatsby-image-agilitycms
 
 With the release of [Gatsby V3](https://www.gatsbyjs.com/blog/gatsby-v3/) and the new [Gatsby Image plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), we were able to create `gatsby-image-agilitycms`. This is a custom image component that take's images stored within Agility CMS and handles all of the hard parts of displaying responsive images that follow best practices for performance on your website or application.
@@ -15,7 +18,7 @@ There are a few steps you need to take before you start using the `gatsby-image-
 
 ### Using the AgilityImage Component
 
-To use the AgilityImage Component: 
+To use the AgilityImage Component:
 
 `import { AgilityImage } from "@agility/gatsby-image-agilitycms"`
 
@@ -27,7 +30,7 @@ The AgilityImage Component accepts the following props:
     - fixed
     - fullWidth
 
-#### Example: 
+#### Example:
 `<AgilityImage image={image} layout={fullWidth} />`
 
 ### Live Example
