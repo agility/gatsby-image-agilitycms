@@ -2,6 +2,14 @@
   "name": "@agility/gatsby-image-agilitycms",
   "version": "1.0.2",
   "description": "Gatsby Image wrapper for Agility CMS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agility/gatsby-image-agilitycms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agility/gatsby-image-agilitycms/issues"
+  },
+  "homepage": "https://github.com/agility/gatsby-image-agilitycms#readme",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
