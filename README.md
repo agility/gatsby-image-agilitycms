@@ -3,7 +3,7 @@
 
 # gatsby-image-agilitycms
 
-With the release of [Gatsby V3](https://www.gatsbyjs.com/blog/gatsby-v3/) and the new [Gatsby Image plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), we were able to create `gatsby-image-agilitycms`. This is a custom image component that take's images stored within Agility CMS and handles all of the hard parts of displaying responsive images that follow best practices for performance on your website or application.
+With the release of [Gatsby V3](https://www.gatsbyjs.com/blog/gatsby-v3/) and the new [Gatsby Image plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-image), we were able to create `gatsby-image-agilitycms`. This is a custom image component that takes images stored within Agility CMS and handles all of the hard parts of displaying responsive images that follow best practices for performance on your website or application.
 
 ## Getting Started
 There are a few steps you need to take before you start using the `gatsby-image-agilitycms` component.
