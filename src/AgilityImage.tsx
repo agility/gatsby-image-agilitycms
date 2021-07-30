@@ -5,7 +5,8 @@ import { FunctionComponent } from "react"
 
 
 function urlBuilder({ baseUrl, width, height, format, options }) {
-	return `${baseUrl}?format=auto&w=${width}&h=${height}`
+	const qformat = baseUrl.toLowerCase().indexOf(".svg") === -1 ? "&format=auto" : ""
+	return `${baseUrl}?w=${width}&h=${height}${qformat}`
 }
 
 const  getAgilityImageData = ({
@@ -37,7 +38,7 @@ const  getAgilityImageData = ({
     pluginName: "gatsby-agility-image",
     // TODO: when we support auto-format/content negotiation, pass this as the formats array
     //formats: ["auto"],
-	placeholderURL: `${image.url}?format=auto&w=${20}&q=60`,
+	placeholderURL: `${image.url}?w=${20}&q=60${image.url.toLowerCase().indexOf(".svg") === -1 ? "&format=auto" : ""}`,
   })
 
 }
